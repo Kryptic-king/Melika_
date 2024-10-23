@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container frosted-glass">
+        <div class="message">
+            <h2>Will You Be My Player 1 in This Game of Love?</h2>
+            <p>
+                Melika, every game has its ups and downs, but with you by my side, I know we can make it to the next level together. 💕
+                <br>
+                I’m asking you not just to play games with me, but to join me in every adventure life throws at us. 
+                I promise to cherish and spoil you, to laugh with you through wins and losses, and to always be there with my heart on 'co-op mode'. 🎮💖
+                <br><br>
+                So... will you be my girlfriend and embark on this amazing journey with me?
+            </p>
+            <button class="yes-btn">YES 💖</button>
+            <button class="no-btn">NO 😢</button>
+        </div>
+    </div>
+
+    <!-- Heart container for the animation -->
+    <div class="hearts-container"></div>
+
+    <script>
+        document.querySelector('.yes-btn').addEventListener('click', () => {
+            window.location.href = "yes.html";  // Redirect to the "YES" page
+        });
+
+        document.querySelector('.no-btn').addEventListener('click', () => {
+            window.location.href = "no.html";  // Redirect to the "NO" page
+        });
+    </script>
+</body>
+</html>
